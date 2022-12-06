@@ -130,6 +130,34 @@ img {
 /* serviceList
 ----------------------------------------*/
 
+.section {
+	/* padding: 40px 20px; */
+	padding-top: 40px;
+}
+
+.headingL {
+	font-family: oswald;
+	font-size: 28px;
+	text-align: center;
+}
+
+.serviceList {
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+.serviceList__item {
+	margin-top: 20px;
+	max-width: 400px;
+	width: calc((100% - 40px) / 1) ;
+}
+
+.serviceList__thumb img {
+	width: 100%;
+}
+
+
 
 /* pickupList
 ----------------------------------------*/
