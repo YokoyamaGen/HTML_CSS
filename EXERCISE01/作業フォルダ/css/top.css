@@ -218,5 +218,76 @@ img {
 	color: #ffffff;
 }
 
+.centerButton {
+	width: calc((335 / 375) * 100%); 
+	margin: 0 auto;
+	text-align: center;
+	height: 70px;
+	border: 2px solid #37952F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttonL {
+	text-decoration: none;
+	font-weight: bold;
+	color: #333333;
+	font-size: 20px;
+}
+
 /* pickupList
 ----------------------------------------*/
+
+.pickupList {
+	display: grid;
+	gap: 15px;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 25px;
+	padding: 0 20px;
+	margin-bottom: 40px;
+}
+
+.pickupList__item {
+	width: 160px;
+}
+
+.pickupList__item a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+}
+
+.pickupList__title::before {
+	content: "";
+	display: inline-block;
+	width: 0.5em;
+	height: 0.5em;
+	margin-right: 0.5em;
+	border-top: 2px solid;
+	border-right: 2px solid;
+	transform: rotate(45deg);
+}
+
+.footer {
+	background-color: #333333;
+	margin-top: 70px;
+	padding: 0 15px;
+}
+
+.footer__menu a, .footer__copyright {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.footer__menu li {
+	padding: 10px 0;
+	border-bottom: 1px solid #707070;
+}
+
+.footer__copyright {
+	padding: 45px 0;
+	text-align: center;
+}
